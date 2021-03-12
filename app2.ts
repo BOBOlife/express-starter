@@ -1,9 +1,9 @@
-import express from 'express'
+import express from 'express';
 const app = express();
 const port = 3000;
 
 app.get('/', (request, response) => {
-  response.send('你好123');
+  response.send('Hello world');
 });
 
 app.listen(port, () => {
